@@ -1,0 +1,13 @@
+{
+    "name": "Flask TMB Arrivals",
+    "image": "ghcr.io/cs50/codespace",
+    "postCreateCommand": "pip install -r requirements.txt",
+    "forwardPorts": [5000],
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/local/bin/python"
+            }
+        }
+    }
+}

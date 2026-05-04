@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Bus Arrivals</h1>
+
+{% for board in stop_boards %}
+<h2>{{ board.name }}</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Line</th>
+            <th>Destination</th>
+            <th>Next bus</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for bus in board.arrivals %}
+        <tr>
+            <td>{{ bus.line }}</td>
+            <td>{{ bus.destination }}</td>
+            <td>{{ bus.text }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endfor %}
+
+{% endblock %}
