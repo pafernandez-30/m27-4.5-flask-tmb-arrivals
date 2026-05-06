@@ -17,7 +17,7 @@ STOPS = [
     {"id": 519, "name": "Pl Joaquim Figueres"},
      {"id": 556, "name": "Zona Universitaria"},
     {"id": 1747, "name": "Gran Via"},
-      {"id": 748, "name": "Les Corts"},
+      {"id": 748, "name": "Les Corts(70)"},
     # TODO: find two stops from your own life and add them here
     # {"id": ???, "name": "Your stop name"},
     # {"id": ???, "name": "Your stop name"},
