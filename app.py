@@ -15,6 +15,9 @@ STOPS = [
     {"id": 556, "name": "Zona Universitaria"},
     {"id": 516, "name": "Carlos III - Numancia"},
     {"id": 519, "name": "Pl Joaquim Figueres"},
+     {"id": 556, "name": "Zona Universitaria"},
+    {"id": 1747, "name": "Gran Via"},
+      {"id": 748, "name": "Les Corts"},
     # TODO: find two stops from your own life and add them here
     # {"id": ???, "name": "Your stop name"},
     # {"id": ???, "name": "Your stop name"},
@@ -22,6 +25,7 @@ STOPS = [
 
 AMB_STOPS = [
     {"id": 103614, "name": "Esplugues - JM / EP"},
+      {"id": 748, "name": "Les Corts"},
     # TODO: find AMB stops from your commute and add them here
     # {"id": ???, "name": "Your stop name"},
 ]
