@@ -12,12 +12,11 @@ TMB_APP_KEY = os.getenv("TMB_APP_KEY")
 AMB_API_KEY = os.getenv("AMB_API_KEY")
 
 STOPS = [
-    {"id": 556, "name": "Zona Universitaria"},
-    {"id": 516, "name": "Carlos III - Numancia"},
+   {"id": 556, "name": "Zona Universitaria"},
+    {"id": 516, "name": "Carlos III - Numancia", "lines": ["70", "V3"]},
     {"id": 519, "name": "Pl Joaquim Figueres"},
-     {"id": 556, "name": "Zona Universitaria"},
     {"id": 1747, "name": "Gran Via"},
-      {"id": 748, "name": "Les Corts(70)"},
+    {"id": 748, "name": "Les Corts", "lines": ["70", "V3"]},
     # TODO: find two stops from your own life and add them here
     # {"id": ???, "name": "Your stop name"},
     # {"id": ???, "name": "Your stop name"},
